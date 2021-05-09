@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap');
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-image: url(../img/fondo13.png);
+}
+
+h1{
+    color: black;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: space-between;
+}
+
+.item2{
+    padding: 30px 10px 0 10px;
+}
+
+.item2 input{
+    padding: 9px 10px 9px 32px;
+    outline: none;
+    font-size: 18px;
+    border-radius: 15px;
+    color: #444;
+    border: 3px solid #a50559;
+    background: #fff url(/img/icono.png)
+    no repeat 9px center;
+    width: 60px;
+    transition: all .5s;
+}
+
+.item2 input:hover{
+    width: 180px;
+    background-color: #fff;
+    border-color: #8c10b3;
+    box-shadow: 0 0 5px #6dcff680;
+}
+
+.item3{
+    padding-top: 25px;
+}
+
+.menu{
+    background-color: #cc5593;
+}
+
+.menu ul{
+    display: flex;
+    justify-content: center;
+}
+
+.menu li{
+    list-style: none;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    display: block;
+    
+}
+
+.menu a:hover{
+    color: #cc5593;
+    background-color: white;
+}
+
+.slider{
+    display: flex;
+    justify-content: center;
+}
